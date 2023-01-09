@@ -1,0 +1,26 @@
+#display{
+    display: grid;
+    grid-template-columns: repeat(5, 5cm);
+    gap: 100px;
+    font-size: 35px;
+    margin-left: 3cm;
+    margin-top: 5px;
+}
+div{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    box-sizing: content-box;
+    height: 200px;
+    width: 125px;
+    border: 3px solid black;
+    transition-property:all;
+    transition-duration: 1000ms;
+
+}
+h1{
+    margin-left: 15cm;
+    font-size: 65px;
+}
+span{
+    margin-left: 2cm;
+}
